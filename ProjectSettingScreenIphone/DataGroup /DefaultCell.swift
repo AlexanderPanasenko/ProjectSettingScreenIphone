@@ -5,4 +5,16 @@
 //  Created by Alexander Panasenko on 03.06.2022.
 //
 
-import Foundation
+import UIKit
+
+public struct Defaultcell {
+    public let text: String
+    public let icon: String
+    public let backgroundColorIcon: UIColor
+    
+    public init(text: String, icon: String, backgroundColorIcon: UIColor) {
+        self.text = text
+        self.icon = icon
+        self.backgroundColorIcon = backgroundColorIcon
+    }
+}
