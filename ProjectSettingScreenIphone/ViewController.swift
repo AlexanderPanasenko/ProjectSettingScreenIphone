@@ -9,10 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+    private var data = [ SectionData(cells: [ .switchCell(withData: SwitchCell(text: "Авиарежим", iconName: "airplane", iconBackgroundColor: .orange, isOnByDefault: true))])]
 
 
 }
