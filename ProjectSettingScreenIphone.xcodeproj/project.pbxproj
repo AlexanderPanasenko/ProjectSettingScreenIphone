@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52A0AE63284A145D000FD9F9 /* SectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0AE62284A145D000FD9F9 /* SectionData.swift */; };
+		52A0AE65284A1823000FD9F9 /* CellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0AE64284A1823000FD9F9 /* CellType.swift */; };
+		52A0AE68284A1B8D000FD9F9 /* DefaultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0AE67284A1B8D000FD9F9 /* DefaultCell.swift */; };
+		52A0AE6A284A1EDC000FD9F9 /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0AE69284A1EDC000FD9F9 /* SwitchCell.swift */; };
+		52A0AE6C284A1EF8000FD9F9 /* OpenTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0AE6B284A1EF8000FD9F9 /* OpenTextCell.swift */; };
 		52F65BA32847F66E00BD94BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F65BA22847F66E00BD94BB /* AppDelegate.swift */; };
 		52F65BA52847F66E00BD94BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F65BA42847F66E00BD94BB /* SceneDelegate.swift */; };
 		52F65BA72847F66E00BD94BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F65BA62847F66E00BD94BB /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52A0AE62284A145D000FD9F9 /* SectionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionData.swift; sourceTree = "<group>"; };
+		52A0AE64284A1823000FD9F9 /* CellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellType.swift; sourceTree = "<group>"; };
+		52A0AE67284A1B8D000FD9F9 /* DefaultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCell.swift; sourceTree = "<group>"; };
+		52A0AE69284A1EDC000FD9F9 /* SwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCell.swift; sourceTree = "<group>"; };
+		52A0AE6B284A1EF8000FD9F9 /* OpenTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTextCell.swift; sourceTree = "<group>"; };
 		52F65B9F2847F66E00BD94BB /* ProjectSettingScreenIphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectSettingScreenIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F65BA22847F66E00BD94BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52F65BA42847F66E00BD94BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +47,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52A0AE66284A1A88000FD9F9 /* DataGroup  */ = {
+			isa = PBXGroup;
+			children = (
+				52A0AE67284A1B8D000FD9F9 /* DefaultCell.swift */,
+				52A0AE69284A1EDC000FD9F9 /* SwitchCell.swift */,
+				52A0AE6B284A1EF8000FD9F9 /* OpenTextCell.swift */,
+			);
+			path = "DataGroup ";
+			sourceTree = "<group>";
+		};
 		52F65B962847F66E00BD94BB = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +76,7 @@
 		52F65BA12847F66E00BD94BB /* ProjectSettingScreenIphone */ = {
 			isa = PBXGroup;
 			children = (
+				52A0AE66284A1A88000FD9F9 /* DataGroup  */,
 				52F65BA22847F66E00BD94BB /* AppDelegate.swift */,
 				52F65BA42847F66E00BD94BB /* SceneDelegate.swift */,
 				52F65BA62847F66E00BD94BB /* ViewController.swift */,
@@ -63,6 +84,8 @@
 				52F65BAB2847F67000BD94BB /* Assets.xcassets */,
 				52F65BAD2847F67000BD94BB /* LaunchScreen.storyboard */,
 				52F65BB02847F67000BD94BB /* Info.plist */,
+				52A0AE62284A145D000FD9F9 /* SectionData.swift */,
+				52A0AE64284A1823000FD9F9 /* CellType.swift */,
 			);
 			path = ProjectSettingScreenIphone;
 			sourceTree = "<group>";
@@ -139,8 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				52F65BA72847F66E00BD94BB /* ViewController.swift in Sources */,
+				52A0AE68284A1B8D000FD9F9 /* DefaultCell.swift in Sources */,
+				52A0AE65284A1823000FD9F9 /* CellType.swift in Sources */,
+				52A0AE6A284A1EDC000FD9F9 /* SwitchCell.swift in Sources */,
+				52A0AE6C284A1EF8000FD9F9 /* OpenTextCell.swift in Sources */,
 				52F65BA32847F66E00BD94BB /* AppDelegate.swift in Sources */,
 				52F65BA52847F66E00BD94BB /* SceneDelegate.swift in Sources */,
+				52A0AE63284A145D000FD9F9 /* SectionData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
