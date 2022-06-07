@@ -7,7 +7,7 @@
 
 import UIKit
 
-class OpeningButtonTableViewCell: UITableViewCell {
+class DisclosureButtonTableViewCell: UITableViewCell {
     static let identifier = "OpeningButtonTableViewCell"
     
     private lazy var iconContainer: UIView = {
@@ -28,7 +28,7 @@ class OpeningButtonTableViewCell: UITableViewCell {
     }()
     
     private lazy var label: UILabel = {
-        let label = UILabel
+        let label = UILabel()
         label.numberOfLines = 1
         
         return label
@@ -72,11 +72,11 @@ class OpeningButtonTableViewCell: UITableViewCell {
         detailTextLabel?.text = nil
     }
     
-    public func configure(with data: OpenTextCell) {
+    public func configure(with data: DisclosureTextCellData) {
         label.text = data.text
         iconImageView.image = UIImage(systemName: data.icon)?.withTintColor(.white, renderingMode: .alwaysOriginal)
         iconContainer.backgroundColor = data.backgroundColorIcon
-        detailTextLabel?.text = data.openText
+        detailTextLabel?.text = data.disclosureText
     }
 }
 
