@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TableViewdefaultCell: UITableViewCell {
+class TableViewDefaultCell: UITableViewCell {
     static let identifier = "TableViewdefaultCell"
     
     private lazy var iconImageView: UIImageView = {
