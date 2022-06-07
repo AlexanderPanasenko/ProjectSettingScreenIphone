@@ -7,7 +7,7 @@
 
 import UIKit
 
-public struct Defaultcell {
+public struct DefaultCellData {
     public let text: String
     public let icon: String
     public let backgroundColorIcon: UIColor

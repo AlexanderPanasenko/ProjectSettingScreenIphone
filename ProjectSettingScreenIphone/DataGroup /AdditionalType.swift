@@ -7,7 +7,7 @@
 
 import Foundation
  
-public enum Additional {
-    case openIcon
+public enum AdditionalType {
+    case disclosureIcon
     case switchButton
 }

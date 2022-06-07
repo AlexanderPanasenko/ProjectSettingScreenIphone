@@ -7,7 +7,7 @@
 
 import UIKit
 
-public struct SwitchCell {
+public struct SwitchCellData {
     public let text: String
     public let icon: String
     public let backgroundColorIcon: UIColor

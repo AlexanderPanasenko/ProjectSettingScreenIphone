@@ -7,16 +7,16 @@
 
 import UIKit
 
-public struct OpenTextCell {
+public struct DisclosureTextCellData {
     public let text: String
     public let icon: String
     public let backgroundColorIcon: UIColor
-    public let openText: String
+    public let disclosureText: String
     
     public init(text: String, icon: String, backgroundColorIcon: UIColor, openText: String) {
         self.text = text
         self.icon = icon
         self.backgroundColorIcon = backgroundColorIcon
-        self.openText = openText
+        self.disclosureText = openText
     }
 }
