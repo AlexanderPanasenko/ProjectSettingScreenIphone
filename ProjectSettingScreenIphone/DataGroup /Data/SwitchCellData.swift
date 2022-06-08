@@ -9,14 +9,14 @@ import UIKit
 
 public struct SwitchCellData {
     public let text: String
-    public let icon: String
-    public let backgroundColorIcon: UIColor
+    public let iconName: String
+    public let iconBackgroundColor: UIColor
     public let isOnByDefault: Bool
-    
-    public init(text: String, icon: String, backgroundColoricon: UIColor, isOnByDefault: Bool) {
+
+    public init(text: String, iconName: String, iconBackgroundColor: UIColor, isOnByDefault: Bool) {
         self.text = text
-        self.icon = icon
-        self.backgroundColorIcon = backgroundColoricon
+        self.iconName = iconName
+        self.iconBackgroundColor = iconBackgroundColor
         self.isOnByDefault = isOnByDefault
     }
 }

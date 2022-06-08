@@ -9,12 +9,12 @@ import UIKit
 
 public struct DefaultCellData {
     public let text: String
-    public let icon: String
-    public let backgroundColorIcon: UIColor
-    
-    public init(text: String, icon: String, backgroundColorIcon: UIColor) {
+    public let iconName: String
+    public let iconBackgroundColor: UIColor
+
+    public init(text: String, iconName: String, iconBackgroundColor: UIColor) {
         self.text = text
-        self.icon = icon
-        self.backgroundColorIcon = backgroundColorIcon
+        self.iconName = iconName
+        self.iconBackgroundColor = iconBackgroundColor
     }
 }

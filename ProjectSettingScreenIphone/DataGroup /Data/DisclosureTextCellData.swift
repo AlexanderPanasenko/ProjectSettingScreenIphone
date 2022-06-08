@@ -9,14 +9,14 @@ import UIKit
 
 public struct DisclosureTextCellData {
     public let text: String
-    public let icon: String
-    public let backgroundColorIcon: UIColor
+    public let iconName: String
+    public let iconBackgroundColor: UIColor
     public let disclosureText: String
-    
-    public init(text: String, icon: String, backgroundColorIcon: UIColor, openText: String) {
+
+    public init(text: String, disclosureText: String, iconName: String, iconBackgroundColor: UIColor) {
         self.text = text
-        self.icon = icon
-        self.backgroundColorIcon = backgroundColorIcon
-        self.disclosureText = openText
+        self.iconName = iconName
+        self.iconBackgroundColor = iconBackgroundColor
+        self.disclosureText = disclosureText
     }
 }

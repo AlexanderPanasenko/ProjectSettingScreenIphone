@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5273E3592850CFA700748D26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273E3582850CFA700748D26 /* ViewController.swift */; };
 		52A0AE68284A1B8D000FD9F9 /* DefaultCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0AE67284A1B8D000FD9F9 /* DefaultCellData.swift */; };
 		52A0AE6A284A1EDC000FD9F9 /* SwitchCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0AE69284A1EDC000FD9F9 /* SwitchCellData.swift */; };
 		52A0AE6C284A1EF8000FD9F9 /* DisclosureTextCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0AE6B284A1EF8000FD9F9 /* DisclosureTextCellData.swift */; };
@@ -18,13 +19,13 @@
 		52A0AE7F284A460A000FD9F9 /* DisclosureButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0AE7E284A460A000FD9F9 /* DisclosureButtonTableViewCell.swift */; };
 		52F65BA32847F66E00BD94BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F65BA22847F66E00BD94BB /* AppDelegate.swift */; };
 		52F65BA52847F66E00BD94BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F65BA42847F66E00BD94BB /* SceneDelegate.swift */; };
-		52F65BA72847F66E00BD94BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F65BA62847F66E00BD94BB /* ViewController.swift */; };
 		52F65BAA2847F66E00BD94BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F65BA82847F66E00BD94BB /* Main.storyboard */; };
 		52F65BAC2847F67000BD94BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F65BAB2847F67000BD94BB /* Assets.xcassets */; };
 		52F65BAF2847F67000BD94BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F65BAD2847F67000BD94BB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5273E3582850CFA700748D26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52A0AE67284A1B8D000FD9F9 /* DefaultCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCellData.swift; sourceTree = "<group>"; };
 		52A0AE69284A1EDC000FD9F9 /* SwitchCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCellData.swift; sourceTree = "<group>"; };
 		52A0AE6B284A1EF8000FD9F9 /* DisclosureTextCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureTextCellData.swift; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		52F65B9F2847F66E00BD94BB /* ProjectSettingScreenIphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectSettingScreenIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F65BA22847F66E00BD94BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52F65BA42847F66E00BD94BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52F65BA62847F66E00BD94BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52F65BA92847F66E00BD94BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52F65BAB2847F67000BD94BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52F65BAE2847F67000BD94BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +55,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5273E35A2850E54500748D26 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				52A0AE7A284A3220000FD9F9 /* TableViewDefaultCell.swift */,
+				52A0AE7C284A3B05000FD9F9 /* SwitchTableViewCell.swift */,
+				52A0AE7E284A460A000FD9F9 /* DisclosureButtonTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		52A0AE66284A1A88000FD9F9 /* DataGroup  */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,9 +86,8 @@
 		52A0AE79284A2C57000FD9F9 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				52A0AE7A284A3220000FD9F9 /* TableViewDefaultCell.swift */,
-				52A0AE7C284A3B05000FD9F9 /* SwitchTableViewCell.swift */,
-				52A0AE7E284A460A000FD9F9 /* DisclosureButtonTableViewCell.swift */,
+				5273E35A2850E54500748D26 /* Cells */,
+				5273E3582850CFA700748D26 /* ViewController.swift */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -96,6 +105,7 @@
 		52F65B962847F66E00BD94BB = {
 			isa = PBXGroup;
 			children = (
+				52A0AE79284A2C57000FD9F9 /* TableView */,
 				52F65BA12847F66E00BD94BB /* ProjectSettingScreenIphone */,
 				52F65BA02847F66E00BD94BB /* Products */,
 			);
@@ -112,8 +122,6 @@
 		52F65BA12847F66E00BD94BB /* ProjectSettingScreenIphone */ = {
 			isa = PBXGroup;
 			children = (
-				52A0AE79284A2C57000FD9F9 /* TableView */,
-				52F65BA62847F66E00BD94BB /* ViewController.swift */,
 				52A0AE72284A2A1E000FD9F9 /* AdditionalFeature */,
 				52A0AE66284A1A88000FD9F9 /* DataGroup  */,
 				52F65BA22847F66E00BD94BB /* AppDelegate.swift */,
@@ -197,13 +205,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52F65BA72847F66E00BD94BB /* ViewController.swift in Sources */,
 				52A0AE7B284A3220000FD9F9 /* TableViewDefaultCell.swift in Sources */,
 				52A0AE7F284A460A000FD9F9 /* DisclosureButtonTableViewCell.swift in Sources */,
 				52A0AE74284A2A6D000FD9F9 /* SectionData.swift in Sources */,
 				52A0AE68284A1B8D000FD9F9 /* DefaultCellData.swift in Sources */,
 				52A0AE78284A2B2E000FD9F9 /* CellType.swift in Sources */,
 				52A0AE6A284A1EDC000FD9F9 /* SwitchCellData.swift in Sources */,
+				5273E3592850CFA700748D26 /* ViewController.swift in Sources */,
 				52A0AE6C284A1EF8000FD9F9 /* DisclosureTextCellData.swift in Sources */,
 				52F65BA32847F66E00BD94BB /* AppDelegate.swift in Sources */,
 				52A0AE70284A257A000FD9F9 /* AdditionalType.swift in Sources */,
