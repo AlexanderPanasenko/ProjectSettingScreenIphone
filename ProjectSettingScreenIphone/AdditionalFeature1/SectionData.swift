@@ -1,8 +1,8 @@
 //
-//  SectionData.swift
+//  Change.swift
 //  ProjectSettingScreenIphone
 //
-//  Created by Alexander Panasenko on 26.06.2022.
+//  Created by Alexander Panasenko on 03.06.2022.
 //
 
 struct SectionData {
